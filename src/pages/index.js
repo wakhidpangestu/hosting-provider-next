@@ -19,8 +19,8 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO
-          title="Hosting Provider"
-          description="Cloud and Hosting Service Provider No.1 in Indonesian"
+          title="Startup hosting provider landing"
+          description="Collection of free top of the line startup landing templates built using react/ next js. Free to download, simply edit and deploy! Updated weekly!"
         />
         <Banner />
         <Services />

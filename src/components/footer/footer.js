@@ -25,7 +25,7 @@ export default function Footer() {
                 <Link path="#!">Privacy</Link>
               </Box>
               <Text as="p" sx={styles.copyright}>
-                Copyright by {new Date().getFullYear()} HIDDEV.ID
+                Copyright by {new Date().getFullYear()} RedQ, Inc
               </Text>
             </Box>
             {menuItems.map(({ id, title, items }) => (

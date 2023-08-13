@@ -56,7 +56,7 @@ export default function Header() {
               handleCloseMenu={handleCloseMenu}
             />
             <Flex sx={styles.buttonGroup}>
-              {/* <Button
+              <Button
                 variant="text"
                 sx={{
                   ...styles.login,
@@ -65,7 +65,7 @@ export default function Header() {
               >
                 <LockIcon fill={state.isSticky ? '#343D48' : 'white'} />
                 Login
-              </Button> */}
+              </Button>
               <Button
                 variant="text"
                 sx={{
@@ -74,7 +74,7 @@ export default function Header() {
                   color: state.isSticky ? 'white' : 'primary',
                 }}
               >
-                Buy Now
+                Join Community
               </Button>
             </Flex>
 
